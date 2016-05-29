@@ -1,5 +1,5 @@
 close all;
-x = csvread('X.csv');
+x = csvread('../data/X.csv');
 
 M_min = min(x);
 M_max = max(x);
